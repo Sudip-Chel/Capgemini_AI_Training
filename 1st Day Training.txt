@@ -1,0 +1,164 @@
+AI - L1
+
+
+Types of AI ->
+	1.Based on Capabilities - 
+		Narrow AI - till now here -- can do only one specific task (SIRI, assistant)
+		General AI - perform intellectual task that a human can do -- theoretical concept 
+		Super AI -  beyond HI -- theoretical concept
+
+	2.Based on Functionality-
+		Reactive Machines -- do not have memory -- only respond  to current input - Netflix recommendation, Ibm blue 
+		Limited Memory -- use past data to improve decision (temp memory ) -- Gen ai , Virtual assistant , self driving  cars
+		Theory of Mind AI -- understand emotions , beliefs and intentions of other -- Future It's
+		Self- Aware AI -Possess Super AI capabilities
+		
+
+# AI --> ML --> DL 
+# Neural Network
+
+Data in AI : foundation of AI-collection of facts , observations, measurements or information
+
+	Types of Data -
+		1. Quantitative Data : can be measured -- numerical forms -- age of people , sales r
+		2. Qualitative Data : non numeric - explains characteristic
+		3. Structured Data : Databases 
+		4.Unstructured Data : Emails , Images , Pdfs
+		5. Semi structured Databases : NoSQL , Json Files
+
+		##.Big Data : datasets grow in size , complexity , speed
+
+
+	Challenges 
+		- quality & accuracy
+		- volume and complexity
+		- privacy & ethics
+		- Bias & Fairness
+		- Management Effort
+
+AI Spectrum -- Evolution of AI
+
+
+		1. Symbolic AI - rule based system to mimic human decision item
+`			> Rule Based AI
+			> Logic Based AI
+			> Knowledge Representation Systems -- e.g. knowledge graphs , intelligent databases
+			> Planning Systems -- e.g. Logistic Planning , Robotics
+			> Search Based AI -- exploring possible states and paths -- IBM Deep Blue (Playing Chess)
+
+		## Advantages 
+		## Limitation
+
+
+		2. Classical Machine Learning 
+			Data -> algorithm -> Model -> Prediction
+
+			## Types - i. Supervised - labelled data
+				  ii. Unsupervised -unlabeled data
+				  iii. Reinforcement -- reward and penalty as feedback
+
+		## Advantages
+		## Limitation
+
+
+		3. Deep Learning -- neural networks
+
+			Types - i. CNN : Used for Image 
+				ii. RNN : Text or speech
+				iii. Transformers : Used in LLMs
+
+		## Advantages
+		## Limitation
+
+	>> Training : - Types : 1. Pre Training
+				2. Fine Tuning 
+				3. Supervised Learning
+				4. Unsupervised Learning 
+
+		Output : Weights, Embeddings , Learned Representation
+
+
+		4. Inference : In Training AI is learning , In Inference AI used its learning to give Output
+
+	## Difference between Inference and Training 
+
+		5. Models  --
+			i. ML Models 
+			ii. DL Models 
+			iii. Generative Models 
+			iv. Multimodal 
+			v. Hybrid Models
+			vi. NLP Models
+			vii. Computer Vision Models
+
+
+  ## Features (characteristics) & Labels (expected output)
+
+
+AI Workflow : 
+		
+		 Workflow for - i. Traditional AI/ML
+				ii. Generative AI
+				iii. Agentic AI  
+
+
+
+
+						Prompt Engineering - L2
+
+
+	
+
+	Prompt Engineering : 
+		Process of Designing , structuring refining  instructions (Prompts) to give AI Model	
+			
+
+	1.Role 
+	2.context
+	3.Instruction
+	4.Input Data 
+	5.Constraints
+	6.Output Format (gherkin format)
+
+	Type : 
+		1. Zero-Shot
+		2. One-Shot
+		3. Few-Shot
+		4. Chain of Thought (structured reasoning prompting)
+		5. Self Consistent Prompting 
+	
+	>> Prompt Chaining
+
+
+ 							
+									What are LLMs - L3
+
+	## Tokenization  -- types of token -- i. word , ii. character
+	## Embeddings
+	## Transformer Architecture
+					
+
+					Transformers in LLMs
+
+Input -> Embedding + Positional Encoding -> Encoder Block -> Decoder Block -> Output 
+
+Key Behavior of LLMs
+
+	Non deterministic behavior
+	Context Window
+	
+Three Types of LLms -- 1. Foundation LLM
+		       2. Instruction Tuned -- Test generation 
+		       3. Reasoning LLMs -- Test case generation
+
+
+## Temperature 
+## Hallucination
+
+## Use of AI in various domains 
+## AI Risks in software testing 
+
+
+
+
+	
