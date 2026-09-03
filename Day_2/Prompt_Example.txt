@@ -1,0 +1,91 @@
+Task : 
+
+0-shot
+
+	Role : You are a Senior QA Automation Architect
+
+	Context : Generate Functional Test Cases for the given flight book requirements
+
+	Requirement : A user should be able to search for flights by entering from city to city , departure Date , No.of passengers and Travel Class. The system should display all available flights and allow the user to select one .
+
+	Output Format : Test Case Id, Scenario, Test Steps , expected result
+
+1-shot 
+
+	Role : You are a Senior QA Automation Architect
+	Eg : 
+		Requirement : User can login using email and password.
+		Output : TC001 
+			Scenario : Valid Login 
+			Steps : 
+				1. Enter valid email
+				2. Enter valid password
+				3. Click login
+
+			Expected Result : User should be redirected to dashboard
+
+		Now Perform the same task for the following requirement 
+	
+		Requirement : A user should be able to search for flights by entering from city to city , departure Date , No.of passengers and Travel Class. The system should display all available flights and allow the user to select one .
+
+
+
+Few-Shot 
+		Role : You are a Senior QA Automation Architect
+		
+
+		Eg 1:
+			Requirement : User can login using email and password.
+				Output : TC001
+					Scenario : Valid Login
+					Steps :
+						1. Enter valid email
+						2. Enter valid password
+						3. Click login
+					Expected Result : User should be redirected to dashboard
+
+		Eg 2 : Requirement : User can register using email and password.
+				Output : TC001
+					Scenario : Valid Registration
+					Steps :
+						1. Enter valid email
+						2. Enter valid password
+						3. Click register
+					Expected Result : Account Created successfully
+	
+		Now generate test case for 
+			
+			Requirement : A user should be able to search for flights by entering from city to city , departure Date , No.of passengers and Travel Class. The system should display all available flights and allow the user to select one .
+Chain of thoughts 
+
+		
+			Role : You are a Senior QA Automation Architect
+			
+			Requirement : A user should be able to search for flights by entering from city to city , departure Date , No.of passengers and  Travel Class. The system should display all available flights and allow the user to select one .
+				
+				Instructions : Think through the Process carefully 
+						1. Validate the Cities Properly 
+						2. Validate the Date properly 
+						3. Identify the positive and negative combination of inputs
+						4.Identify Boundary Conditions
+						5.Identify expected behavior after clicking Search Button.
+
+	`			Convert the identified scenarios into executable test cases 
+
+				Expected Outcome : Test Case Id, Scenario, Test Steps , expected result 
+
+Self Consistency Prompting : 
+
+		Role : You are Senior QA Architect specializing in Functional Testing , test coverage analysis and requirement validation
+		Context : We are testing a flight search feature 
+				Requirement : A user should be able to search for flights by entering from city to city , departure Date , No.of passenger and Travel Class. The system should display all available flights and allow the user to select one .
+				
+		The system should display available flights and allow the user to select one .
+			
+			Approach A - Input & Validation -- Focus on Required Field, valid inputs , invalid inputs , empty inputs , boundary values , invalid combinations , field and form level validation 
+
+			Approach B - End to end user journey analysis - From open the flight search page to enter search criteria to user select flights 
+
+			Generate only the Important test cases and test scenarios properly with validating which approach should be taken. 
+
+			Expected Outcome : Test Case Id, Scenario, Test Steps , expected result
